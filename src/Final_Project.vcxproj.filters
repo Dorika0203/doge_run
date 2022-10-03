@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="gl\glad\glad.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trackball.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cgut.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cgmath.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="light_material.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="imagefuncs.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="fire_particle.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{49c568f9-02cf-4a47-8a82-6e9aedbedbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{6a2f5bce-35ee-49e8-aee1-ab8235424f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{b4b7f363-1759-4d6d-aa72-7425585b9bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\shaders\main.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\main.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\particle.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\particle.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\text.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\text.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowMap.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="..\bin\shaders\shadowMap.vert">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
