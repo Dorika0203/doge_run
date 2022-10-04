@@ -6,8 +6,7 @@
 
 ### How to Run
 ---
-
-/bin 폴더 안의 exe 파일 실행
+git clone 후 /bin 폴더 안의 exe 파일 실행
 
 ### Key
 ---
